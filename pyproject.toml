@@ -1,0 +1,10 @@
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.0"
+tag_format = "v$version"
+version_files = [
+    "app/core/config.py",  # or wherever your version lives
+    "pyproject.toml",
+]
+update_changelog_on_bump = true
+changelog_file = "CHANGELOG.md"
